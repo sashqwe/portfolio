@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   links.forEach((link) => {
     link.addEventListener('click', (e) => { 
-    overlay.classList.remove('overlay_active'),
+    over.classList.remove('overlay_active'),
     menu.classList.remove('menu_active'),
     hamburger.classList.remove('hamburger_active'),
     first.classList.remove('top'),
